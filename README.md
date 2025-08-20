@@ -1,40 +1,44 @@
 # Python Basics
 
-This repository contains a collection of fundamental Python programs and code snippets, designed for learning and practicing core concepts. Each file demonstrates a specific idea, from basic syntax to control flow and functions.
+A beginner-friendly collection of Python scripts that explore core programming concepts—no frills, just real code that you can run and learn from.
 
-## Current Topics
+---
 
-### Basic Syntax and Variables
-* **HelloWorld.py**: A classic "Hello, World!" program.
-* **Variables.py**: Demonstrates how to declare and use variables.
-* **VarDaTypes.py**: An example of different data types in Python.
-* **Input.py**: Shows how to take user input.
-* **Operations.py**: An example of basic mathematical operations.
+## What You'll Find Here
 
-### Control Flow and Loops
-* **While.py**: Demonstrates how to use a `while` loop.
-* **Looping.py**: A more general example of different loops.
-* **ErrorHandling.py**: Shows how to use `try-except` blocks.
+These scripts cover foundational topics and mini projects, neatly organized to guide beginners:
 
-### Functions and Classes
-* **AgeCalculator.py**: A simple program that calculates age.
-* **Calc.py** and **Calc1.py**: Examples of calculator functions.
-* **Cards.py**: A program that might involve classes or functions for cards.
+- **First Steps & Basics**
+  - `helloWorld.py` – Your very first “Hello, World!” script
+  - `variables.py`, `varDaTypes.py` – Understanding variables and data types
+  - `assignmentOperators.py`, `arithmeticOperators.py`, `associativityOperators.py`, `comparisonOperators.py`, `booleanDatatype.py` – Operators and logic
 
-### Problem-Solving and Mini-Projects
-* **NameCol.py**: A program for collecting names.
-* **NumGuesGame.py**: A number guessing game.
-* **PwdStr.py**: A password strength checker.
-* **RnG.py**: A random number generator.
-* **To-Do.py**: A simple to-do list program.
+- **Control Flow & Error Handling**
+  - `conditionals.py` – If-statements and branching logic
+  - `while.py` – Loops with `while`
+  - `errorHandling.py` – Gracefully catching and handling errors
 
-## Planned Additions
+- **Advanced Basics**
+  - `endSep.py`, `fString.py` – Formatting output, string manipulation
+  - `dictionary.py` – Working with dictionaries
 
-I plan to add more examples for more advanced topics, including:
-* File I/O
-* Data Structures (Lists, Dictionaries, Tuples)
-* Web Scraping
+- **Simple Projects**
+  - `ageCalculator.py` – Compute your age
+  - `calculator1.py`, `calculator2.py` – Two versions of a basic calculator
+  - `cards.py` – Simulate drawing cards
+  - `nameCol.py` – Collect and display names
+  - `numGuessGame.py` – Guess-the-number game
+  - `pwdStr.py` – Check password strength
+  - `RnG.py` – Random number generation
+  - `to-do.py` – A text-based to-do list app
 
-## License
+---
 
-This project is open-sourced under the MIT License.
+## How to Run These Scripts
+
+Clone the repo, then run any script with Python—no setup required:
+
+```bash
+git clone https://github.com/azaleamiku/pythonBasics.git
+cd pythonBasics
+python ageCalculator.py
